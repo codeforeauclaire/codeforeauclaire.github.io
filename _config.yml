@@ -1,0 +1,11 @@
+permalink: /:categories/:title/
+markdown: kramdown
+prose:
+  media: 'images'
+  rooturl: '_posts'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /js
