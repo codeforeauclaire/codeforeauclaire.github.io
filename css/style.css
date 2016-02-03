@@ -128,18 +128,18 @@ table h3 {
   border:1px solid #999;
   -webkit-appearance:none; 
   padding: 4px; 
+  font-size: 21px;
   border-radius: 3px;
 }
-#groupsio_embed_signup label {
-  font-size:16px; 
-  padding-bottom:10px; 
-  font-weight:bold;
+
+#groupsio_embed_signup p {
+  margin:10px 0 20px; 
 }
+
 #groupsio_embed_signup .email {
   padding:8px 0; 
-  margin:0 4% 10px 0; 
-  text-indent:5px; 
-  width:58%; 
+  margin:10px 0; 
+  width:80%; 
   min-width:130px;
 }
 

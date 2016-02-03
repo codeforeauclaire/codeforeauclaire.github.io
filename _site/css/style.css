@@ -124,6 +124,24 @@ table h3 {
 }
 
 
+#groupsio_embed_signup input[type=email] {
+  border:1px solid #999;
+  -webkit-appearance:none; 
+  padding: 4px; 
+  font-size: 21px;
+  border-radius: 3px;
+}
+
+#groupsio_embed_signup p {
+  margin:10px 0 20px; 
+}
+
+#groupsio_embed_signup .email {
+  padding:8px 0; 
+  margin:10px 0; 
+  width:80%; 
+  min-width:130px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
