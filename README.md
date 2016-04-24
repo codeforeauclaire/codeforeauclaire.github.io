@@ -6,7 +6,7 @@ The website for the Code for Eau Claire Brigade
 
 1. Fork this repository
 1. Create a new Digital Ocean Ubuntu 14.04.4 machine >> SSH in >> Run (or read) vms quick install
- 1. `export GHUSER='AnthonyAstige'` (Using your username)
+ 1. `export GHUSER='AnthonyAstige'` (Replace AnthonyAstige with your username)
  1. `curl -L -o- https://rawgit.com/$GHUSER/vms/master/bin/vmsquickinstall.sh | bash`
 1. Run app
  1. `~/codeforeauclaire.github.io/bin/serve`
