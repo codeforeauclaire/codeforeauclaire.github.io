@@ -17,7 +17,7 @@ source /usr/local/rvm/scripts/rvm
 gem install jekyll
 
 # Clone repository
-git clone https://github.com/AnthonyAstige/codeforeauclaire.github.io.git
+git clone https://github.com/$GHUSER/codeforeauclaire.github.io.git
 
 echo "This script is a work in progress -Anthony April 24th 2016"
 
