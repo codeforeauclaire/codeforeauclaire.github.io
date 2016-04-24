@@ -9,5 +9,8 @@ while [ -h "$SOURCE" ]; do
 done
 SCRIPT_PATH="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
+# Prep nvm in case this script ran before bash reloaded
+source /usr/local/rvm/scripts/rvm
+
 # Run it
 (cd $SCRIPT_PATH/../ && jekyll serve --watch --host=0.0.0.0)
