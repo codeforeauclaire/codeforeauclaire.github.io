@@ -19,6 +19,4 @@ gem install jekyll
 # Clone repository
 git clone https://github.com/$GHUSER/codeforeauclaire.github.io.git
 
-echo "This script is a work in progress -Anthony April 24th 2016"
-
 } # this ensures the entire script is downloaded and run #
