@@ -2,6 +2,17 @@
 
 The website for the Code for Eau Claire Brigade
 
+## VMS development enviornment quick setup instructions
+
+1. Fork this repository
+1. Create a new Digital Ocean Ubuntu 14.04.4 machine >> SSH in >> Run (or read) vms quick install
+ 1. `export GHUSER='AnthonyAstige'` (Using your username)
+ 1. `curl -L -o- https://rawgit.com/$GHUSER/vms/master/bin/vmsquickinstall.sh | bash`
+1. Run app
+ 1. `~/codeforeauclaire.github.io/bin/serve`
+ 1. Load http://{vms-ip}:4000 in your browser
+ 1. Edit a file >> see changes instantly in your browser
+
 ### Goals
 1. Explain what Code for Eau Claire is and the type of work we do.
 2. To celebrate our events, projects, and discussions!
