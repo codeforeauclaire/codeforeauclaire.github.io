@@ -10,4 +10,4 @@ done
 SCRIPT_PATH="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 # Run it
-(cd $SCRIPT_PATH/../ && jekyll serve --watch)
+(cd $SCRIPT_PATH/../ && jekyll serve --watch --host=0.0.0.0)
