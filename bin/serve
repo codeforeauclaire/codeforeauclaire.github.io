@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Config: Calculated
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do
+    DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+    SOURCE="$(readlink "$SOURCE")"
+    [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
+done
+SCRIPT_PATH="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+
+# Prep nvm in case this script ran before bash reloaded
+source /usr/local/rvm/scripts/rvm
+
+# Run it
+(cd $SCRIPT_PATH/../ && jekyll serve --watch --host=0.0.0.0)
