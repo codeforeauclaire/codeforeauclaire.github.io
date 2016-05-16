@@ -7,7 +7,7 @@ The website for the Code for Eau Claire Brigade
 Use these instructions to setup a temporary* development environment of this project.
 
 1. Fork this repository
-1. Create a new [Virtual Machine](http://vms.codeforeauclaire.org/) >> SSH in >> Run (or read) vms quick install
+1. Create a new [Virtual Machine](http://vms.codeforeauclaire.org/) >> SSH in >> Run vms quick install:
  1. `export GHUSER='AnthonyAstige'` (Replace AnthonyAstige with your username)
  1. `curl -L -o- https://rawgit.com/$GHUSER/codeforeauclaire.github.io/master/bin/vmsquickinstall.sh | bash`
 1. Run app
