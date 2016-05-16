@@ -5,7 +5,7 @@ The website for the Code for Eau Claire Brigade
 ## VMS development enviornment quick setup instructions
 
 1. Fork this repository
-1. Create a new Digital Ocean Ubuntu 14.04.4 machine >> SSH in >> Run (or read) vms quick install
+1. Create a new [Virtual Machine](http://vms.codeforeauclaire.org/) >> SSH in >> Run (or read) vms quick install
  1. `export GHUSER='AnthonyAstige'` (Replace AnthonyAstige with your username)
  1. `curl -L -o- https://rawgit.com/$GHUSER/codeforeauclaire.github.io/master/bin/vmsquickinstall.sh | bash`
 1. Run app
